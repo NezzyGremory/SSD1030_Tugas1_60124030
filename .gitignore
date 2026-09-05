@@ -3,10 +3,19 @@ venv/
 env/
 node_modules/
 
+# Python Cache
+__pycache__/
+*.pyc
+
+# Konfigurasi IDE & OS
 .vscode/
 .DS_Store
 Thumbs.db
 
-# Abaikan file log & temporary
+# File log & temporary
 *.log
 *.tmp
+
+# Sembunyikan file config asli yang berisi API Key
+config.json
+.env
