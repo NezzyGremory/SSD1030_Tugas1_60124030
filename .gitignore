@@ -1,0 +1,12 @@
+# Abaikan folder virtual environment & node_modules
+venv/
+env/
+node_modules/
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Abaikan file log & temporary
+*.log
+*.tmp
